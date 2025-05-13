@@ -1,9 +1,9 @@
 
-# 🔐 Firebase Authentication with React (Email/Password Only)
+# Firebase Authentication with React (Email/Password Only)
 
 This is a simple React app that demonstrates how to integrate **Firebase Authentication** using **Email/Password login**. It allows users to **sign up**, **log in**, and **log out**, with authentication state managed in real time.
 
-## 🚀 Features
+## Features
 
 - Firebase Email/Password authentication
 - Signup and Login forms
@@ -13,7 +13,7 @@ This is a simple React app that demonstrates how to integrate **Firebase Authent
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -37,7 +37,7 @@ npm install
 5. Go to **Project Settings > General > Web App** and register a new web app
 6. Copy the Firebase config and replace it in `src/firebase.js`
 
-### ✅ Example Firebase Config (already included)
+### Example Firebase Config (already included)
 
 ```js
 const firebaseConfig = {
@@ -63,7 +63,7 @@ Your app should now be running at `http://localhost:3000`.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -75,7 +75,7 @@ src/
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - **App.js** uses `onAuthStateChanged` from Firebase to detect if the user is logged in.
 - If logged in, the app shows a welcome message and logout button.
@@ -83,7 +83,7 @@ src/
 
 ---
 
-## 🌐 Optional Deployment
+## Optional Deployment
 
 To deploy using Firebase Hosting:
 
